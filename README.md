@@ -4,6 +4,8 @@
 
 **Vivado Version**: 2023
 
+**development board**: Nexys4DDR
+
 **Features**:
 1. **Basic Digital Clock**: Designed to display hours, minutes, and seconds.
 2. **12/24 Hour Format**: Supports switching between 12-hour and 24-hour formats.
