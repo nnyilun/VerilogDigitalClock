@@ -1,0 +1,256 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Mar 31 20:55:29 2023
+| Host         : JYL-ASUS running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   178 |
+|    Minimum number of control sets                        |   178 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |  1127 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   178 |
+| >= 0 to < 4        |   152 |
+| >= 4 to < 6        |    13 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     6 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              19 |            9 |
+| No           | No                    | Yes                    |             200 |          128 |
+| No           | Yes                   | No                     |              61 |           56 |
+| Yes          | No                    | No                     |              48 |           29 |
+| Yes          | No                    | Yes                    |             161 |           81 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------+---------------------+-------------------------------+------------------+----------------+--------------+
+|          Clock Signal          |    Enable Signal    |        Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------------+---------------------+-------------------------------+------------------+----------------+--------------+
+|  ST0/nextTime_reg[0]_1         |                     | ST0/nextTime_reg[0]_0         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[6]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[7]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[20]_1        |                     | ST0/nextTime_reg[20]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[22]_1        |                     | ST0/nextTime_reg[22]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[6]_1         |                     | ST0/nextTime_reg[6]_0         |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[11]_1        |                     | ST0/nextTime_reg[11]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[14]_1        |                     | ST0/nextTime_reg[14]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[7]_1         |                     | ST0/nextTime_reg[7]_0         |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[8]_1         |                     | ST0/nextTime_reg[8]_0         |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[9]_1         |                     | ST0/nextTime_reg[9]_0         |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[5]_1         |                     | ST0/nextTime_reg[5]_0         |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[21]_1        |                     | ST0/nextTime_reg[21]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[19]_1        |                     | ST0/nextTime_reg[19]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[10]_1        |                     | ST0/nextTime_reg[10]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[12]_1        |                     | ST0/nextTime_reg[12]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[13]_1        |                     | ST0/nextTime_reg[13]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[15]_1        |                     | ST0/nextTime_reg[15]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[16]_1        |                     | ST0/nextTime_reg[16]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[17]_1        |                     | ST0/nextTime_reg[17]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[18]_1        |                     | ST0/nextTime_reg[18]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[1]_1         |                     | ST0/nextTime_reg[1]_0         |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[23]_LDC_i_1_n_0 |                     | TC0/_Time_reg[23]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[23]_1        |                     | ST0/nextTime_reg[23]_0        |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[2]_1         |                     | ST0/nextTime_reg[2]_0         |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[3]_1         |                     | ST0/nextTime_reg[3]_0         |                1 |              1 |         1.00 |
+|  ST0/nextTime_reg[4]_1         |                     | ST0/nextTime_reg[4]_0         |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[0]_LDC_i_1_n_0  |                     | TC0/_Time_reg[0]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[11]_LDC_i_1_n_0 |                     | TC0/_Time_reg[11]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[13]_LDC_i_1_n_0 |                     | TC0/_Time_reg[13]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[14]_LDC_i_1_n_0 |                     | TC0/_Time_reg[14]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[16]_LDC_i_1_n_0 |                     | TC0/_Time_reg[16]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[12]_LDC_i_1_n_0 |                     | TC0/_Time_reg[12]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[15]_LDC_i_1_n_0 |                     | TC0/_Time_reg[15]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[10]_LDC_i_1_n_0 |                     | TC0/_Time_reg[10]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[19]_LDC_i_1_n_0 |                     | TC0/_Time_reg[19]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[1]_LDC_i_1_n_0  |                     | TC0/_Time_reg[1]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[4]_LDC_i_1_n_0  |                     | TC0/_Time_reg[4]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[21]_LDC_i_1_n_0 |                     | TC0/_Time_reg[21]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[3]_LDC_i_1_n_0  |                     | TC0/_Time_reg[3]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[17]_LDC_i_1_n_0 |                     | TC0/_Time_reg[17]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[22]_LDC_i_1_n_0 |                     | TC0/_Time_reg[22]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[20]_LDC_i_1_n_0 |                     | TC0/_Time_reg[20]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[18]_LDC_i_1_n_0 |                     | TC0/_Time_reg[18]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[8]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[2]_LDC_i_1_n_0  |                     | TC0/_Time_reg[2]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[5]_LDC_i_1_n_0  |                     | TC0/_Time_reg[5]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[6]_LDC_i_1_n_0  |                     | TC0/_Time_reg[6]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[7]_LDC_i_1_n_0  |                     | TC0/_Time_reg[7]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[8]_LDC_i_1_n_0  |                     | TC0/_Time_reg[8]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  TC0/_Time_reg[9]_LDC_i_1_n_0  |                     | TC0/_Time_reg[9]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[9]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  setTime_BUFG                  |                     | ST0/nCR                       |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[20]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[22]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[11]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[6]_0         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[6]_1         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[11]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[0]_0         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[14]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[5]_0         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[7]_0         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[7]_1         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[10]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[8]_0         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[22]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[8]_1         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[9]_0         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[9]_1         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[5]_1         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[17]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[21]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[19]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nCR                       |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[10]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[12]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[12]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[13]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[13]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[15]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[15]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[16]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[16]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[17]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[14]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[18]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[1]_0         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[18]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[1]_1         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[0]_1         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[20]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[23]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[23]_1        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[21]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[2]_0         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[2]_1         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[3]_0         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[3]_1         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[4]_0         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[19]_0        |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | ST0/nextTime_reg[4]_1         |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[0]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[11]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[12]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[14]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[10]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[15]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[16]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[13]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[21]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[20]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[4]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[23]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[17]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[2]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[3]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[1]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[19]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[18]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[22]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[5]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[6]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[8]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[7]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  |                     | TC0/_Time_reg[9]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/symbol          | setTime_BUFG                  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[20]   | TC0/_Time_reg[21]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[20]   | TC0/_Time_reg[22]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[20]   | TC0/_Time_reg[20]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[20]   | TC0/_Time_reg[23]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[0]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[11]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[13]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[14]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[16]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[12]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[15]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[10]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[19]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[1]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[4]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[3]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[17]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[18]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[2]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  CLK_1Hz_BUFG                  | TC0/p_2_in__0[3]    | TC0/_Time_reg[5]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+|  CLK_1kHz_BUFG                 | _down/counter0_n_0  | Down_IBUF                     |                1 |              3 |         3.00 |
+|  CLK_1kHz_BUFG                 | _left/counter0_n_0  | Left_IBUF                     |                1 |              3 |         3.00 |
+|  CLK_1kHz_BUFG                 | _enter/p_0_in       | Enter_IBUF                    |                1 |              3 |         3.00 |
+|  CLK_1kHz_BUFG                 | _right/counter0_n_0 | Right_IBUF                    |                1 |              3 |         3.00 |
+|  CLK_1kHz_BUFG                 | _up/counter0_n_0    | Up_IBUF                       |                2 |              3 |         1.50 |
+|  _enter/CLK                    |                     |                               |                1 |              4 |         4.00 |
+|  CLK_1kHz_BUFG                 | A0/p_2_in[23]       |                               |                3 |              4 |         1.33 |
+|  CLK_1kHz_BUFG                 | A0/p_2_in[19]       |                               |                3 |              4 |         1.33 |
+|  CLK_1kHz_BUFG                 | A0/p_2_in[3]        |                               |                2 |              4 |         2.00 |
+|  CLK_1kHz_BUFG                 | A0/p_2_in[7]        |                               |                4 |              4 |         1.00 |
+|  CLK_1kHz_BUFG                 | A0/p_2_in[11]       |                               |                3 |              4 |         1.33 |
+|  CLK_1kHz_BUFG                 | A0/p_2_in[15]       |                               |                2 |              4 |         2.00 |
+|  CLK_1kHz_BUFG                 | ST0/p_2_in[3]       |                               |                2 |              4 |         2.00 |
+|  CLK_1kHz_BUFG                 | ST0/p_2_in[11]      |                               |                1 |              4 |         4.00 |
+|  CLK_1kHz_BUFG                 | ST0/p_2_in[19]      |                               |                2 |              4 |         2.00 |
+|  CLK_1kHz_BUFG                 | ST0/p_2_in[7]       |                               |                3 |              4 |         1.33 |
+|  CLK_1kHz_BUFG                 | ST0/p_2_in[23]      |                               |                2 |              4 |         2.00 |
+|  CLK_1kHz_BUFG                 | ST0/p_2_in[15]      |                               |                2 |              4 |         2.00 |
+|  M0/status_reg[0]_4[0]         |                     | ST0/nCR                       |                2 |              6 |         3.00 |
+| ~status_lights_OBUF_BUFG[1]    |                     | ST0/nCR                       |                5 |              6 |         1.20 |
+|  CLK20/CLK_Out_reg_0           | AL0/sel             | A0/AS[0]                      |                2 |              7 |         3.50 |
+|  CLK_1Hz_BUFG                  |                     |                               |                2 |              7 |         3.50 |
+|  CLK_1kHz_BUFG                 | nCR_IBUF            | ST0/nCR                       |                4 |              8 |         2.00 |
+|  CLK_1kHz_BUFG                 |                     |                               |                6 |              8 |         1.33 |
+|  CLK_1kHz_BUFG                 | ST0/counter         | ST0/nCR                       |                4 |             10 |         2.50 |
+|  CLK_1kHz_BUFG                 | M0/E[0]             | ST0/nCR                       |                7 |             24 |         3.43 |
+|  CLK_1kHz_BUFG                 | M0/status_reg[1]_1  | ST0/nCR                       |               14 |             24 |         1.71 |
+|  CLK_1kHz_BUFG                 | M0/status_reg[1]_2  | ST0/nCR                       |               11 |             24 |         2.18 |
+|  CLK_1kHz_BUFG                 | M0/symbol_reg[0]    | ST0/nCR                       |                8 |             24 |         3.00 |
+|  CLK_1kHz_BUFG                 |                     | ST0/nCR                       |               13 |             28 |         2.15 |
+|  CLK_100MHz_IBUF_BUFG          |                     | ST0/nCR                       |               42 |             99 |         2.36 |
++--------------------------------+---------------------+-------------------------------+------------------+----------------+--------------+
+
+

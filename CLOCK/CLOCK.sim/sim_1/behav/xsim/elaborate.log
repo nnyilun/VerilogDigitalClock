@@ -1,0 +1,27 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'second_lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v:53]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.frequency_div(CLK_FREQ=100)
+Compiling module xil_defaultlib.filter
+Compiling module xil_defaultlib.Mode
+Compiling module xil_defaultlib.Output
+Compiling module xil_defaultlib.ID_to_Seg7
+Compiling module xil_defaultlib.Seg7_driver
+Compiling module xil_defaultlib.Second_Lights
+Compiling module xil_defaultlib.time_counter
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.alarm
+Compiling module xil_defaultlib.alarm_light
+Compiling module xil_defaultlib.hour_flicker
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_Sim_behav

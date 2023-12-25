@@ -1,0 +1,1461 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar 31 15:50:01 2023
+# Process ID: 23416
+# Current directory: C:/Users/nnyil/Desktop/CLOCK
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13760 C:\Users\nnyil\Desktop\CLOCK\CLOCK.xpr
+# Log file: C:/Users/nnyil/Desktop/CLOCK/vivado.log
+# Journal file: C:/Users/nnyil/Desktop/CLOCK\vivado.jou
+# Running On: JYL-ASUS, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 34084 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nnyil/Desktop/CLOCK/CLOCK.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-151] The current board 'digilentinc.com::nexys4_ddr:1.1' is from a local repo. The vivado install has a corresponding board with version greater than or equal to the local repo board. Please use boards from vivado install to avoid any upgrade/migrate issues
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1768.629 ; gain = 330.625
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 16:01:00 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 16:01:00 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 16:02:59 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 16:02:59 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+[Fri Mar 31 16:03:48 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 16:03:48 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 16:05:03 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 16:05:03 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-07:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747345A
+set_property PROGRAM.FILE {C:\Users\nnyil\Desktop\Clock.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292747345A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747345A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/Clock.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 16:15:27 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 16:15:27 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-07:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747345A
+set_property PROGRAM.FILE {C:\Users\nnyil\Desktop\Clock.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 16:23:41 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 16:23:41 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 4411.559 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 5092.410 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 5092.410 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5092.410 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 5253.504 ; gain = 1211.117
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 16:26:30 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 16:26:30 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+close_design
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292747345A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747345A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/Clock.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+set_property top top_Sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_Sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_to_Seg7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Output
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg7_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm_light.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm_light
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequency_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hour_flicker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/second_lights.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Second_Lights
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/time_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'second_lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v:45]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 6 for port 'second' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:74]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.frequency_div(CLK_FREQ=100)
+Compiling module xil_defaultlib.filter
+Compiling module xil_defaultlib.Mode
+Compiling module xil_defaultlib.Output
+Compiling module xil_defaultlib.ID_to_Seg7
+Compiling module xil_defaultlib.Seg7_driver
+Compiling module xil_defaultlib.Second_Lights
+Compiling module xil_defaultlib.time_counter
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.alarm
+Compiling module xil_defaultlib.alarm_light
+Compiling module xil_defaultlib.hour_flicker
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_Sim_behav -key {Behavioral:sim_1:Functional:top_Sim} -tclbatch {top_Sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_Sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+1
+_hour: 0, _min: 0, _second: 0, Second: 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_Sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 5304.090 ; gain = 0.000
+run 10 ms
+$stop called at time : 20110 ns : File "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v" Line 84
+run 10 ms
+run 10 ms
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/top_Sim/U0/SL0}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_Sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_to_Seg7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Output
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg7_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm_light.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm_light
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequency_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hour_flicker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/second_lights.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Second_Lights
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/time_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'second_lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v:45]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 6 for port 'second' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:74]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.frequency_div(CLK_FREQ=100)
+Compiling module xil_defaultlib.filter
+Compiling module xil_defaultlib.Mode
+Compiling module xil_defaultlib.Output
+Compiling module xil_defaultlib.ID_to_Seg7
+Compiling module xil_defaultlib.Seg7_driver
+Compiling module xil_defaultlib.Second_Lights
+Compiling module xil_defaultlib.time_counter
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.alarm
+Compiling module xil_defaultlib.alarm_light
+Compiling module xil_defaultlib.hour_flicker
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+1
+_hour: 0, _min: 0, _second: 0, Second: 0
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'second_lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v:53]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 6 for port 'second' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:74]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.frequency_div(CLK_FREQ=100)
+Compiling module xil_defaultlib.filter
+Compiling module xil_defaultlib.Mode
+Compiling module xil_defaultlib.Output
+Compiling module xil_defaultlib.ID_to_Seg7
+Compiling module xil_defaultlib.Seg7_driver
+Compiling module xil_defaultlib.Second_Lights
+Compiling module xil_defaultlib.time_counter
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.alarm
+Compiling module xil_defaultlib.alarm_light
+Compiling module xil_defaultlib.hour_flicker
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+1
+_hour: 0, _min: 0, _second: 0, Second: 0
+_hour: 0, _min: 0, _second: 1, Second: 1
+_hour: 0, _min: 0, _second: 2, Second: 2
+_hour: 0, _min: 0, _second: 3, Second: 3
+_hour: 0, _min: 0, _second: 4, Second: 4
+_hour: 0, _min: 0, _second: 5, Second: 5
+_hour: 0, _min: 0, _second: 6, Second: 6
+_hour: 0, _min: 0, _second: 7, Second: 7
+_hour: 0, _min: 0, _second: 8, Second: 8
+_hour: 0, _min: 0, _second: 9, Second: 9
+_hour: 0, _min: 0, _second:10, Second:10
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/top_Sim/U0/O0}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_Sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'second_lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v:53]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 6 for port 'second' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:74]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+1
+_hour: 0, _min: 0, _second: 0, Second: 0
+_hour: 0, _min: 0, _second: 1, Second: 1
+_hour: 0, _min: 0, _second: 2, Second: 2
+_hour: 0, _min: 0, _second: 3, Second: 3
+_hour: 0, _min: 0, _second: 4, Second: 4
+_hour: 0, _min: 0, _second: 5, Second: 5
+_hour: 0, _min: 0, _second: 6, Second: 6
+_hour: 0, _min: 0, _second: 7, Second: 7
+_hour: 0, _min: 0, _second: 8, Second: 8
+_hour: 0, _min: 0, _second: 9, Second: 9
+_hour: 0, _min: 0, _second:10, Second:10
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_to_Seg7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Output
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg7_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm_light.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm_light
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequency_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hour_flicker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/second_lights.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Second_Lights
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/time_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'second_lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v:53]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.frequency_div(CLK_FREQ=100)
+Compiling module xil_defaultlib.filter
+Compiling module xil_defaultlib.Mode
+Compiling module xil_defaultlib.Output
+Compiling module xil_defaultlib.ID_to_Seg7
+Compiling module xil_defaultlib.Seg7_driver
+Compiling module xil_defaultlib.Second_Lights
+Compiling module xil_defaultlib.time_counter
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.alarm
+Compiling module xil_defaultlib.alarm_light
+Compiling module xil_defaultlib.hour_flicker
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+1
+_hour: 0, _min: 0, _second: 0, Second: 0
+_hour: 0, _min: 0, _second: 1, Second: 1
+_hour: 0, _min: 0, _second: 2, Second: 2
+_hour: 0, _min: 0, _second: 3, Second: 3
+_hour: 0, _min: 0, _second: 4, Second: 4
+_hour: 0, _min: 0, _second: 5, Second: 5
+_hour: 0, _min: 0, _second: 6, Second: 6
+_hour: 0, _min: 0, _second: 7, Second: 7
+_hour: 0, _min: 0, _second: 8, Second: 8
+_hour: 0, _min: 0, _second: 9, Second: 9
+_hour: 0, _min: 0, _second:10, Second:10
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_to_Seg7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Output
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg7_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm_light.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm_light
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequency_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hour_flicker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/second_lights.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Second_Lights
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/time_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'second_lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v:53]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.frequency_div(CLK_FREQ=100)
+Compiling module xil_defaultlib.filter
+Compiling module xil_defaultlib.Mode
+Compiling module xil_defaultlib.Output
+Compiling module xil_defaultlib.ID_to_Seg7
+Compiling module xil_defaultlib.Seg7_driver
+Compiling module xil_defaultlib.Second_Lights
+Compiling module xil_defaultlib.time_counter
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.alarm
+Compiling module xil_defaultlib.alarm_light
+Compiling module xil_defaultlib.hour_flicker
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+1
+_hour: 0, _min: 0, _second: 0, Second: 0
+_hour: 0, _min: 0, _second: 1, Second: 1
+_hour: 0, _min: 0, _second: 2, Second: 2
+_hour: 0, _min: 0, _second: 3, Second: 3
+_hour: 0, _min: 0, _second: 4, Second: 4
+_hour: 0, _min: 0, _second: 5, Second: 5
+_hour: 0, _min: 0, _second: 6, Second: 6
+_hour: 0, _min: 0, _second: 7, Second: 7
+_hour: 0, _min: 0, _second: 8, Second: 8
+_hour: 0, _min: 0, _second: 9, Second: 9
+_hour: 0, _min: 0, _second:10, Second:10
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 5304.090 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_to_Seg7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Output
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg7_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm_light.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm_light
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequency_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hour_flicker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/second_lights.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Second_Lights
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/time_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'second_lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v:53]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.frequency_div(CLK_FREQ=100)
+Compiling module xil_defaultlib.filter
+Compiling module xil_defaultlib.Mode
+Compiling module xil_defaultlib.Output
+Compiling module xil_defaultlib.ID_to_Seg7
+Compiling module xil_defaultlib.Seg7_driver
+Compiling module xil_defaultlib.Second_Lights
+Compiling module xil_defaultlib.time_counter
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.alarm
+Compiling module xil_defaultlib.alarm_light
+Compiling module xil_defaultlib.hour_flicker
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+1
+_hour: 0, _min: 0, _second: 0, Second: 0
+_hour: 0, _min: 0, _second: 1, Second: 1
+_hour: 0, _min: 0, _second: 2, Second: 2
+_hour: 0, _min: 0, _second: 3, Second: 3
+_hour: 0, _min: 0, _second: 4, Second: 4
+_hour: 0, _min: 0, _second: 5, Second: 5
+_hour: 0, _min: 0, _second: 6, Second: 6
+_hour: 0, _min: 0, _second: 7, Second: 7
+_hour: 0, _min: 0, _second: 8, Second: 8
+_hour: 0, _min: 0, _second: 9, Second: 9
+_hour: 0, _min: 0, _second:10, Second:10
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_Sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'second_lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v:53]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+1
+_hour: 0, _min: 0, _second: 0, Second: 0
+_hour: 0, _min: 0, _second: 1, Second: 1
+_hour: 0, _min: 0, _second: 2, Second: 2
+_hour: 0, _min: 0, _second: 3, Second: 3
+_hour: 0, _min: 0, _second: 4, Second: 4
+_hour: 0, _min: 0, _second: 5, Second: 5
+_hour: 0, _min: 0, _second: 6, Second: 6
+_hour: 0, _min: 0, _second: 7, Second: 7
+_hour: 0, _min: 0, _second: 8, Second: 8
+_hour: 0, _min: 0, _second: 9, Second: 9
+_hour: 0, _min: 0, _second:10, Second:10
+run 10 ms
+_hour: 0, _min: 0, _second:11, Second:11
+_hour: 0, _min: 0, _second:12, Second:12
+_hour: 0, _min: 0, _second:13, Second:13
+_hour: 0, _min: 0, _second:14, Second:14
+_hour: 0, _min: 0, _second:15, Second:15
+_hour: 0, _min: 0, _second:16, Second:16
+_hour: 0, _min: 0, _second:17, Second:17
+_hour: 0, _min: 0, _second:18, Second:18
+_hour: 0, _min: 0, _second:19, Second:19
+_hour: 0, _min: 0, _second:20, Second:20
+_hour: 0, _min: 0, _second:21, Second:21
+_hour: 0, _min: 0, _second:22, Second:22
+_hour: 0, _min: 0, _second:23, Second:23
+_hour: 0, _min: 0, _second:24, Second:24
+_hour: 0, _min: 0, _second:25, Second:25
+_hour: 0, _min: 0, _second:26, Second:26
+_hour: 0, _min: 0, _second:27, Second:27
+_hour: 0, _min: 0, _second:28, Second:28
+_hour: 0, _min: 0, _second:29, Second:29
+_hour: 0, _min: 0, _second:30, Second:30
+_hour: 0, _min: 0, _second:31, Second:31
+_hour: 0, _min: 0, _second:32, Second:32
+_hour: 0, _min: 0, _second:33, Second:33
+_hour: 0, _min: 0, _second:34, Second:34
+_hour: 0, _min: 0, _second:35, Second:35
+_hour: 0, _min: 0, _second:36, Second:36
+_hour: 0, _min: 0, _second:37, Second:37
+_hour: 0, _min: 0, _second:38, Second:38
+_hour: 0, _min: 0, _second:39, Second:39
+_hour: 0, _min: 0, _second:40, Second:40
+_hour: 0, _min: 0, _second:41, Second:41
+_hour: 0, _min: 0, _second:42, Second:42
+_hour: 0, _min: 0, _second:43, Second:43
+_hour: 0, _min: 0, _second:44, Second:44
+_hour: 0, _min: 0, _second:45, Second:45
+_hour: 0, _min: 0, _second:46, Second:46
+_hour: 0, _min: 0, _second:47, Second:47
+_hour: 0, _min: 0, _second:48, Second:48
+_hour: 0, _min: 0, _second:49, Second:49
+_hour: 0, _min: 0, _second:50, Second:50
+_hour: 0, _min: 0, _second:51, Second:51
+_hour: 0, _min: 0, _second:52, Second:52
+_hour: 0, _min: 0, _second:53, Second:53
+_hour: 0, _min: 0, _second:54, Second:54
+_hour: 0, _min: 0, _second:55, Second:55
+_hour: 0, _min: 0, _second:56, Second:56
+_hour: 0, _min: 0, _second:57, Second:57
+_hour: 0, _min: 0, _second:58, Second:58
+_hour: 0, _min: 0, _second:59, Second:59
+_hour: 0, _min: 1, _second: 0, Second: 0
+_hour: 0, _min: 1, _second: 1, Second: 1
+_hour: 0, _min: 1, _second: 2, Second: 2
+_hour: 0, _min: 1, _second: 3, Second: 3
+_hour: 0, _min: 1, _second: 4, Second: 4
+_hour: 0, _min: 1, _second: 5, Second: 5
+_hour: 0, _min: 1, _second: 6, Second: 6
+_hour: 0, _min: 1, _second: 7, Second: 7
+_hour: 0, _min: 1, _second: 8, Second: 8
+_hour: 0, _min: 1, _second: 9, Second: 9
+_hour: 0, _min: 1, _second:10, Second:10
+_hour: 0, _min: 1, _second:11, Second:11
+_hour: 0, _min: 1, _second:12, Second:12
+_hour: 0, _min: 1, _second:13, Second:13
+_hour: 0, _min: 1, _second:14, Second:14
+_hour: 0, _min: 1, _second:15, Second:15
+_hour: 0, _min: 1, _second:16, Second:16
+_hour: 0, _min: 1, _second:17, Second:17
+_hour: 0, _min: 1, _second:18, Second:18
+_hour: 0, _min: 1, _second:19, Second:19
+_hour: 0, _min: 1, _second:20, Second:20
+_hour: 0, _min: 1, _second:21, Second:21
+_hour: 0, _min: 1, _second:22, Second:22
+_hour: 0, _min: 1, _second:23, Second:23
+_hour: 0, _min: 1, _second:24, Second:24
+_hour: 0, _min: 1, _second:25, Second:25
+_hour: 0, _min: 1, _second:26, Second:26
+_hour: 0, _min: 1, _second:27, Second:27
+_hour: 0, _min: 1, _second:28, Second:28
+_hour: 0, _min: 1, _second:29, Second:29
+_hour: 0, _min: 1, _second:30, Second:30
+_hour: 0, _min: 1, _second:31, Second:31
+_hour: 0, _min: 1, _second:32, Second:32
+_hour: 0, _min: 1, _second:33, Second:33
+_hour: 0, _min: 1, _second:34, Second:34
+_hour: 0, _min: 1, _second:35, Second:35
+_hour: 0, _min: 1, _second:36, Second:36
+_hour: 0, _min: 1, _second:37, Second:37
+_hour: 0, _min: 1, _second:38, Second:38
+_hour: 0, _min: 1, _second:39, Second:39
+_hour: 0, _min: 1, _second:40, Second:40
+_hour: 0, _min: 1, _second:41, Second:41
+_hour: 0, _min: 1, _second:42, Second:42
+_hour: 0, _min: 1, _second:43, Second:43
+_hour: 0, _min: 1, _second:44, Second:44
+_hour: 0, _min: 1, _second:45, Second:45
+_hour: 0, _min: 1, _second:46, Second:46
+_hour: 0, _min: 1, _second:47, Second:47
+_hour: 0, _min: 1, _second:48, Second:48
+_hour: 0, _min: 1, _second:49, Second:49
+_hour: 0, _min: 1, _second:50, Second:50
+_hour: 0, _min: 1, _second:51, Second:51
+_hour: 0, _min: 1, _second:52, Second:52
+_hour: 0, _min: 1, _second:53, Second:53
+_hour: 0, _min: 1, _second:54, Second:54
+_hour: 0, _min: 1, _second:55, Second:55
+_hour: 0, _min: 1, _second:56, Second:56
+_hour: 0, _min: 1, _second:57, Second:57
+_hour: 0, _min: 1, _second:58, Second:58
+_hour: 0, _min: 1, _second:59, Second:59
+_hour: 0, _min: 2, _second: 0, Second: 0
+_hour: 0, _min: 2, _second: 1, Second: 1
+_hour: 0, _min: 2, _second: 2, Second: 2
+_hour: 0, _min: 2, _second: 3, Second: 3
+_hour: 0, _min: 2, _second: 4, Second: 4
+_hour: 0, _min: 2, _second: 5, Second: 5
+_hour: 0, _min: 2, _second: 6, Second: 6
+_hour: 0, _min: 2, _second: 7, Second: 7
+_hour: 0, _min: 2, _second: 8, Second: 8
+_hour: 0, _min: 2, _second: 9, Second: 9
+_hour: 0, _min: 2, _second:10, Second:10
+_hour: 0, _min: 2, _second:11, Second:11
+_hour: 0, _min: 2, _second:12, Second:12
+_hour: 0, _min: 2, _second:13, Second:13
+_hour: 0, _min: 2, _second:14, Second:14
+_hour: 0, _min: 2, _second:15, Second:15
+_hour: 0, _min: 2, _second:16, Second:16
+_hour: 0, _min: 2, _second:17, Second:17
+_hour: 0, _min: 2, _second:18, Second:18
+_hour: 0, _min: 2, _second:19, Second:19
+_hour: 0, _min: 2, _second:20, Second:20
+_hour: 0, _min: 2, _second:21, Second:21
+_hour: 0, _min: 2, _second:22, Second:22
+_hour: 0, _min: 2, _second:23, Second:23
+_hour: 0, _min: 2, _second:24, Second:24
+_hour: 0, _min: 2, _second:25, Second:25
+_hour: 0, _min: 2, _second:26, Second:26
+_hour: 0, _min: 2, _second:27, Second:27
+_hour: 0, _min: 2, _second:28, Second:28
+_hour: 0, _min: 2, _second:29, Second:29
+_hour: 0, _min: 2, _second:30, Second:30
+_hour: 0, _min: 2, _second:31, Second:31
+_hour: 0, _min: 2, _second:32, Second:32
+_hour: 0, _min: 2, _second:33, Second:33
+_hour: 0, _min: 2, _second:34, Second:34
+_hour: 0, _min: 2, _second:35, Second:35
+_hour: 0, _min: 2, _second:36, Second:36
+_hour: 0, _min: 2, _second:37, Second:37
+_hour: 0, _min: 2, _second:38, Second:38
+_hour: 0, _min: 2, _second:39, Second:39
+_hour: 0, _min: 2, _second:40, Second:40
+_hour: 0, _min: 2, _second:41, Second:41
+_hour: 0, _min: 2, _second:42, Second:42
+_hour: 0, _min: 2, _second:43, Second:43
+_hour: 0, _min: 2, _second:44, Second:44
+_hour: 0, _min: 2, _second:45, Second:45
+_hour: 0, _min: 2, _second:46, Second:46
+_hour: 0, _min: 2, _second:47, Second:47
+_hour: 0, _min: 2, _second:48, Second:48
+_hour: 0, _min: 2, _second:49, Second:49
+_hour: 0, _min: 2, _second:50, Second:50
+_hour: 0, _min: 2, _second:51, Second:51
+_hour: 0, _min: 2, _second:52, Second:52
+_hour: 0, _min: 2, _second:53, Second:53
+_hour: 0, _min: 2, _second:54, Second:54
+_hour: 0, _min: 2, _second:55, Second:55
+_hour: 0, _min: 2, _second:56, Second:56
+_hour: 0, _min: 2, _second:57, Second:57
+_hour: 0, _min: 2, _second:58, Second:58
+_hour: 0, _min: 2, _second:59, Second:59
+_hour: 0, _min: 3, _second: 0, Second: 0
+_hour: 0, _min: 3, _second: 1, Second: 1
+_hour: 0, _min: 3, _second: 2, Second: 2
+_hour: 0, _min: 3, _second: 3, Second: 3
+_hour: 0, _min: 3, _second: 4, Second: 4
+_hour: 0, _min: 3, _second: 5, Second: 5
+_hour: 0, _min: 3, _second: 6, Second: 6
+_hour: 0, _min: 3, _second: 7, Second: 7
+_hour: 0, _min: 3, _second: 8, Second: 8
+_hour: 0, _min: 3, _second: 9, Second: 9
+_hour: 0, _min: 3, _second:10, Second:10
+_hour: 0, _min: 3, _second:11, Second:11
+_hour: 0, _min: 3, _second:12, Second:12
+_hour: 0, _min: 3, _second:13, Second:13
+_hour: 0, _min: 3, _second:14, Second:14
+_hour: 0, _min: 3, _second:15, Second:15
+_hour: 0, _min: 3, _second:16, Second:16
+_hour: 0, _min: 3, _second:17, Second:17
+_hour: 0, _min: 3, _second:18, Second:18
+_hour: 0, _min: 3, _second:19, Second:19
+_hour: 0, _min: 3, _second:20, Second:20
+_hour: 0, _min: 3, _second:21, Second:21
+$stop called at time : 20110 ns : File "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v" Line 92
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_to_Seg7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Output
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg7_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm_light.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alarm_light
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module filter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequency_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hour_flicker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/second_lights.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Second_Lights
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/time_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'top_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_Sim_behav xil_defaultlib.top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'second_lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v:53]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.frequency_div(CLK_FREQ=100)
+Compiling module xil_defaultlib.filter
+Compiling module xil_defaultlib.Mode
+Compiling module xil_defaultlib.Output
+Compiling module xil_defaultlib.ID_to_Seg7
+Compiling module xil_defaultlib.Seg7_driver
+Compiling module xil_defaultlib.Second_Lights
+Compiling module xil_defaultlib.time_counter
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.alarm
+Compiling module xil_defaultlib.alarm_light
+Compiling module xil_defaultlib.hour_flicker
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+1
+_hour: 0, _min: 0, _second: 0, Second: 0
+_hour: 0, _min: 0, _second: 1, Second: 1
+_hour: 0, _min: 0, _second: 2, Second: 2
+_hour: 0, _min: 0, _second: 3, Second: 3
+_hour: 0, _min: 0, _second: 4, Second: 4
+_hour: 0, _min: 0, _second: 5, Second: 5
+_hour: 0, _min: 0, _second: 6, Second: 6
+_hour: 0, _min: 0, _second: 7, Second: 7
+_hour: 0, _min: 0, _second: 8, Second: 8
+_hour: 0, _min: 0, _second: 9, Second: 9
+_hour: 0, _min: 0, _second:10, Second:10
+run 10 ms
+_hour: 0, _min: 0, _second:11, Second:11
+_hour: 0, _min: 0, _second:12, Second:12
+_hour: 0, _min: 0, _second:13, Second:13
+_hour: 0, _min: 0, _second:14, Second:14
+_hour: 0, _min: 0, _second:15, Second:15
+_hour: 0, _min: 0, _second:16, Second:16
+_hour: 0, _min: 0, _second:17, Second:17
+_hour: 0, _min: 0, _second:18, Second:18
+_hour: 0, _min: 0, _second:19, Second:19
+_hour: 0, _min: 0, _second:20, Second:20
+_hour: 0, _min: 0, _second:21, Second:21
+_hour: 0, _min: 0, _second:22, Second:22
+_hour: 0, _min: 0, _second:23, Second:23
+_hour: 0, _min: 0, _second:24, Second:24
+_hour: 0, _min: 0, _second:25, Second:25
+_hour: 0, _min: 0, _second:26, Second:26
+_hour: 0, _min: 0, _second:27, Second:27
+_hour: 0, _min: 0, _second:28, Second:28
+_hour: 0, _min: 0, _second:29, Second:29
+_hour: 0, _min: 0, _second:30, Second:30
+_hour: 0, _min: 0, _second:31, Second:31
+_hour: 0, _min: 0, _second:32, Second:32
+_hour: 0, _min: 0, _second:33, Second:33
+_hour: 0, _min: 0, _second:34, Second:34
+_hour: 0, _min: 0, _second:35, Second:35
+_hour: 0, _min: 0, _second:36, Second:36
+_hour: 0, _min: 0, _second:37, Second:37
+_hour: 0, _min: 0, _second:38, Second:38
+_hour: 0, _min: 0, _second:39, Second:39
+_hour: 0, _min: 0, _second:40, Second:40
+_hour: 0, _min: 0, _second:41, Second:41
+_hour: 0, _min: 0, _second:42, Second:42
+_hour: 0, _min: 0, _second:43, Second:43
+_hour: 0, _min: 0, _second:44, Second:44
+_hour: 0, _min: 0, _second:45, Second:45
+_hour: 0, _min: 0, _second:46, Second:46
+_hour: 0, _min: 0, _second:47, Second:47
+_hour: 0, _min: 0, _second:48, Second:48
+_hour: 0, _min: 0, _second:49, Second:49
+_hour: 0, _min: 0, _second:50, Second:50
+_hour: 0, _min: 0, _second:51, Second:51
+_hour: 0, _min: 0, _second:52, Second:52
+_hour: 0, _min: 0, _second:53, Second:53
+_hour: 0, _min: 0, _second:54, Second:54
+_hour: 0, _min: 0, _second:55, Second:55
+_hour: 0, _min: 0, _second:56, Second:56
+_hour: 0, _min: 0, _second:57, Second:57
+_hour: 0, _min: 0, _second:58, Second:58
+_hour: 0, _min: 0, _second:59, Second:59
+_hour: 0, _min: 1, _second: 0, Second: 0
+_hour: 0, _min: 1, _second: 1, Second: 1
+_hour: 0, _min: 1, _second: 2, Second: 2
+_hour: 0, _min: 1, _second: 3, Second: 3
+_hour: 0, _min: 1, _second: 4, Second: 4
+_hour: 0, _min: 1, _second: 5, Second: 5
+_hour: 0, _min: 1, _second: 6, Second: 6
+_hour: 0, _min: 1, _second: 7, Second: 7
+_hour: 0, _min: 1, _second: 8, Second: 8
+_hour: 0, _min: 1, _second: 9, Second: 9
+_hour: 0, _min: 1, _second:10, Second:10
+_hour: 0, _min: 1, _second:11, Second:11
+_hour: 0, _min: 1, _second:12, Second:12
+_hour: 0, _min: 1, _second:13, Second:13
+_hour: 0, _min: 1, _second:14, Second:14
+_hour: 0, _min: 1, _second:15, Second:15
+_hour: 0, _min: 1, _second:16, Second:16
+_hour: 0, _min: 1, _second:17, Second:17
+_hour: 0, _min: 1, _second:18, Second:18
+_hour: 0, _min: 1, _second:19, Second:19
+_hour: 0, _min: 1, _second:20, Second:20
+_hour: 0, _min: 1, _second:21, Second:21
+_hour: 0, _min: 1, _second:22, Second:22
+_hour: 0, _min: 1, _second:23, Second:23
+_hour: 0, _min: 1, _second:24, Second:24
+_hour: 0, _min: 1, _second:25, Second:25
+_hour: 0, _min: 1, _second:26, Second:26
+_hour: 0, _min: 1, _second:27, Second:27
+_hour: 0, _min: 1, _second:28, Second:28
+_hour: 0, _min: 1, _second:29, Second:29
+_hour: 0, _min: 1, _second:30, Second:30
+_hour: 0, _min: 1, _second:31, Second:31
+_hour: 0, _min: 1, _second:32, Second:32
+_hour: 0, _min: 1, _second:33, Second:33
+_hour: 0, _min: 1, _second:34, Second:34
+_hour: 0, _min: 1, _second:35, Second:35
+_hour: 0, _min: 1, _second:36, Second:36
+_hour: 0, _min: 1, _second:37, Second:37
+_hour: 0, _min: 1, _second:38, Second:38
+_hour: 0, _min: 1, _second:39, Second:39
+_hour: 0, _min: 1, _second:40, Second:40
+_hour: 0, _min: 1, _second:41, Second:41
+_hour: 0, _min: 1, _second:42, Second:42
+_hour: 0, _min: 1, _second:43, Second:43
+_hour: 0, _min: 1, _second:44, Second:44
+_hour: 0, _min: 1, _second:45, Second:45
+_hour: 0, _min: 1, _second:46, Second:46
+_hour: 0, _min: 1, _second:47, Second:47
+_hour: 0, _min: 1, _second:48, Second:48
+_hour: 0, _min: 1, _second:49, Second:49
+_hour: 0, _min: 1, _second:50, Second:50
+_hour: 0, _min: 1, _second:51, Second:51
+_hour: 0, _min: 1, _second:52, Second:52
+_hour: 0, _min: 1, _second:53, Second:53
+_hour: 0, _min: 1, _second:54, Second:54
+_hour: 0, _min: 1, _second:55, Second:55
+_hour: 0, _min: 1, _second:56, Second:56
+_hour: 0, _min: 1, _second:57, Second:57
+_hour: 0, _min: 1, _second:58, Second:58
+_hour: 0, _min: 1, _second:59, Second:59
+_hour: 0, _min: 2, _second: 0, Second: 0
+_hour: 0, _min: 2, _second: 1, Second: 1
+_hour: 0, _min: 2, _second: 2, Second: 2
+_hour: 0, _min: 2, _second: 3, Second: 3
+_hour: 0, _min: 2, _second: 4, Second: 4
+_hour: 0, _min: 2, _second: 5, Second: 5
+_hour: 0, _min: 2, _second: 6, Second: 6
+_hour: 0, _min: 2, _second: 7, Second: 7
+_hour: 0, _min: 2, _second: 8, Second: 8
+_hour: 0, _min: 2, _second: 9, Second: 9
+_hour: 0, _min: 2, _second:10, Second:10
+_hour: 0, _min: 2, _second:11, Second:11
+_hour: 0, _min: 2, _second:12, Second:12
+_hour: 0, _min: 2, _second:13, Second:13
+_hour: 0, _min: 2, _second:14, Second:14
+_hour: 0, _min: 2, _second:15, Second:15
+_hour: 0, _min: 2, _second:16, Second:16
+_hour: 0, _min: 2, _second:17, Second:17
+_hour: 0, _min: 2, _second:18, Second:18
+_hour: 0, _min: 2, _second:19, Second:19
+_hour: 0, _min: 2, _second:20, Second:20
+_hour: 0, _min: 2, _second:21, Second:21
+_hour: 0, _min: 2, _second:22, Second:22
+_hour: 0, _min: 2, _second:23, Second:23
+_hour: 0, _min: 2, _second:24, Second:24
+_hour: 0, _min: 2, _second:25, Second:25
+_hour: 0, _min: 2, _second:26, Second:26
+_hour: 0, _min: 2, _second:27, Second:27
+_hour: 0, _min: 2, _second:28, Second:28
+_hour: 0, _min: 2, _second:29, Second:29
+_hour: 0, _min: 2, _second:30, Second:30
+_hour: 0, _min: 2, _second:31, Second:31
+_hour: 0, _min: 2, _second:32, Second:32
+_hour: 0, _min: 2, _second:33, Second:33
+_hour: 0, _min: 2, _second:34, Second:34
+_hour: 0, _min: 2, _second:35, Second:35
+_hour: 0, _min: 2, _second:36, Second:36
+_hour: 0, _min: 2, _second:37, Second:37
+_hour: 0, _min: 2, _second:38, Second:38
+_hour: 0, _min: 2, _second:39, Second:39
+_hour: 0, _min: 2, _second:40, Second:40
+_hour: 0, _min: 2, _second:41, Second:41
+_hour: 0, _min: 2, _second:42, Second:42
+_hour: 0, _min: 2, _second:43, Second:43
+_hour: 0, _min: 2, _second:44, Second:44
+_hour: 0, _min: 2, _second:45, Second:45
+_hour: 0, _min: 2, _second:46, Second:46
+_hour: 0, _min: 2, _second:47, Second:47
+_hour: 0, _min: 2, _second:48, Second:48
+_hour: 0, _min: 2, _second:49, Second:49
+_hour: 0, _min: 2, _second:50, Second:50
+_hour: 0, _min: 2, _second:51, Second:51
+_hour: 0, _min: 2, _second:52, Second:52
+_hour: 0, _min: 2, _second:53, Second:53
+_hour: 0, _min: 2, _second:54, Second:54
+_hour: 0, _min: 2, _second:55, Second:55
+_hour: 0, _min: 2, _second:56, Second:56
+_hour: 0, _min: 2, _second:57, Second:57
+_hour: 0, _min: 2, _second:58, Second:58
+_hour: 0, _min: 2, _second:59, Second:59
+_hour: 0, _min: 3, _second: 0, Second: 0
+_hour: 0, _min: 3, _second: 1, Second: 1
+_hour: 0, _min: 3, _second: 2, Second: 2
+_hour: 0, _min: 3, _second: 3, Second: 3
+_hour: 0, _min: 3, _second: 4, Second: 4
+_hour: 0, _min: 3, _second: 5, Second: 5
+_hour: 0, _min: 3, _second: 6, Second: 6
+_hour: 0, _min: 3, _second: 7, Second: 7
+_hour: 0, _min: 3, _second: 8, Second: 8
+_hour: 0, _min: 3, _second: 9, Second: 9
+_hour: 0, _min: 3, _second:10, Second:10
+_hour: 0, _min: 3, _second:11, Second:11
+_hour: 0, _min: 3, _second:12, Second:12
+_hour: 0, _min: 3, _second:13, Second:13
+_hour: 0, _min: 3, _second:14, Second:14
+_hour: 0, _min: 3, _second:15, Second:15
+_hour: 0, _min: 3, _second:16, Second:16
+_hour: 0, _min: 3, _second:17, Second:17
+_hour: 0, _min: 3, _second:18, Second:18
+_hour: 0, _min: 3, _second:19, Second:19
+_hour: 0, _min: 3, _second:20, Second:20
+_hour: 0, _min: 3, _second:21, Second:21
+_hour: 0, _min: 3, _second:22, Second:22
+_hour: 0, _min: 3, _second:23, Second:23
+_hour: 0, _min: 3, _second:24, Second:24
+_hour: 0, _min: 3, _second:25, Second:25
+_hour: 0, _min: 3, _second:26, Second:26
+_hour: 0, _min: 3, _second:27, Second:27
+_hour: 0, _min: 3, _second:28, Second:28
+_hour: 0, _min: 3, _second:29, Second:29
+_hour: 0, _min: 3, _second:30, Second:30
+$stop called at time : 21010 ns : File "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/top_Sim.v" Line 92
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 16:56:33 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 16:56:33 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-07:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747345A
+set_property PROGRAM.FILE {C:\Users\nnyil\Desktop\Clock.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/Clock.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/Clock.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 17:02:44 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 17:02:44 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/Clock.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 17:17:50 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 17:17:50 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-07:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747345A
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/Clock.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292747345A
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 31 17:32:37 2023...

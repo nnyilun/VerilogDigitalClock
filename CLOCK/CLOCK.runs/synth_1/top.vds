@@ -1,0 +1,442 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar 31 20:54:16 2023
+# Process ID: 9876
+# Current directory: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.vds
+# Journal file: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1\vivado.jou
+# Running On: JYL-ASUS, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 34084 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 25520
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [E:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1834.152 ; gain = 408.582
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:24]
+INFO: [Synth 8-6157] synthesizing module 'frequency_div' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+	Parameter NEED_FREQ bound to: 1000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'frequency_div' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'frequency_div__parameterized0' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+	Parameter NEED_FREQ bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'frequency_div__parameterized0' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'frequency_div__parameterized1' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+	Parameter NEED_FREQ bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'frequency_div__parameterized1' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'filter' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/filter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'filter' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/filter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mode' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v:24]
+INFO: [Synth 8-226] default block is never used [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'Mode' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Output' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v:24]
+INFO: [Synth 8-226] default block is never used [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'Output' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Seg7_driver' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v:24]
+INFO: [Synth 8-6157] synthesizing module 'ID_to_Seg7' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v:24]
+INFO: [Synth 8-226] default block is never used [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'ID_to_Seg7' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Seg7_driver' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Second_Lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/second_lights.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Second_Lights' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/second_lights.v:23]
+INFO: [Synth 8-6157] synthesizing module 'time_counter' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/time_counter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'time_counter' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/time_counter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'set_time' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'set_time' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v:24]
+INFO: [Synth 8-6157] synthesizing module 'alarm' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'alarm' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v:24]
+INFO: [Synth 8-6157] synthesizing module 'alarm_light' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm_light.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'alarm_light' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm_light.v:24]
+INFO: [Synth 8-6157] synthesizing module 'hour_flicker' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v:24]
+WARNING: [Synth 8-6090] variable 'counter' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v:37]
+WARNING: [Synth 8-6090] variable 'Out' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'hour_flicker' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:24]
+WARNING: [Synth 8-7137] Register DP_reg in module Seg7_driver has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v:40]
+WARNING: [Synth 8-7137] Register next_setTime_reg in module set_time has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v:53]
+WARNING: [Synth 8-7137] Register next_alarmTime_reg in module alarm has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v:55]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1931.070 ; gain = 505.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1931.070 ; gain = 505.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1931.070 ; gain = 505.500
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1931.070 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'status[1]'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:270]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:270]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'status[0]'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:271]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:271]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'status[0]'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:275]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:275]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'status[1]'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:276]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:276]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'light'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:278]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:278]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'light'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:279]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:279]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'button'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:281]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:281]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'light2'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:282]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:282]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'light2'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:283]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:283]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'button'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:284]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:284]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1997.285 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1997.285 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [E:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'currentStatus_reg' in module 'Mode'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      S0 |                             0001 |                               00
+                      S1 |                             0010 |                               01
+                      S2 |                             0100 |                               10
+                      S3 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'currentStatus_reg' using encoding 'one-hot' in module 'Mode'
+WARNING: [Synth 8-327] inferring latch for variable 'Hour_reg' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v:52]
+WARNING: [Synth 8-327] inferring latch for variable 'Second_reg' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v:53]
+WARNING: [Synth 8-327] inferring latch for variable 'PM_reg' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v:54]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 4     
+	   2 Input   10 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 32    
+	   2 Input    3 Bit       Adders := 8     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               24 Bit    Registers := 8     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 8     
+	                2 Bit    Registers := 9     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 7     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 43    
+	   7 Input   24 Bit        Muxes := 4     
+	   2 Input   10 Bit        Muxes := 1     
+	   5 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 2     
+	   2 Input    6 Bit        Muxes := 2     
+	   4 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 4     
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 11    
+	   2 Input    3 Bit        Muxes := 5     
+	   4 Input    2 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 28    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (TC0/symbol_reg_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[23]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[23]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[22]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[22]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[21]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[21]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[20]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[20]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[19]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[19]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[18]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[18]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[17]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[17]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[16]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[16]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[15]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[15]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[14]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[14]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[13]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[13]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[12]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[12]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[11]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[11]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[10]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[10]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[9]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[9]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[8]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[8]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[7]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[7]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[6]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[6]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[5]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[5]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[4]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[4]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[3]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[3]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[2]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[2]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[1]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[1]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[0]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (ST0/next_setTime_reg[0]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[23]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[23]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[22]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[22]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[21]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[21]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[20]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[20]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[19]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[19]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[18]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[18]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[17]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[17]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[16]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[16]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[15]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[15]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[14]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[14]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[13]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[13]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[12]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[12]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[11]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[11]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[10]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[10]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[9]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[9]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[8]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[8]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[7]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[7]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[6]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[6]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[5]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[5]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[4]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[4]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[3]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[3]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[2]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[2]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[1]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[1]_C) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[0]_LDC) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (A0/next_alarmTime_reg[0]_C) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     5|
+|2     |CARRY4 |    33|
+|3     |LUT1   |    36|
+|4     |LUT2   |    28|
+|5     |LUT3   |   169|
+|6     |LUT4   |    47|
+|7     |LUT5   |   241|
+|8     |LUT6   |   248|
+|9     |FDCE   |   208|
+|10    |FDPE   |   152|
+|11    |FDRE   |    67|
+|12    |LDC    |    61|
+|13    |IBUF   |     9|
+|14    |OBUF   |    32|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1997.285 ; gain = 571.715
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 101 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1997.285 ; gain = 505.500
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1997.285 ; gain = 571.715
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1997.285 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 94 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1997.285 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 61 instances were transformed.
+  LDC => LDCE: 55 instances
+  LDC => LDCE (inverted pins: G): 6 instances
+
+Synth Design complete, checksum: b239817c
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 116 Warnings, 10 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 1997.285 ; gain = 965.012
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 31 20:54:52 2023...

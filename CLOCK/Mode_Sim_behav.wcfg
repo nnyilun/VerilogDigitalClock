@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Mode_Sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Mode_Sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="180.001 ns"></ZoomEndTime>
+      <Cursor1Time time="20.194 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/Mode_Sim/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mode_Sim/nCR" type="logic">
+      <obj_property name="ElementShortName">nCR</obj_property>
+      <obj_property name="ObjectShortName">nCR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mode_Sim/Enter" type="logic">
+      <obj_property name="ElementShortName">Enter</obj_property>
+      <obj_property name="ObjectShortName">Enter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mode_Sim/status" type="array">
+      <obj_property name="ElementShortName">status[1:0]</obj_property>
+      <obj_property name="ObjectShortName">status[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mode_Sim/U0/status" type="array">
+      <obj_property name="ElementShortName">status[1:0]</obj_property>
+      <obj_property name="ObjectShortName">status[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mode_Sim/U0/currentStatus" type="array">
+      <obj_property name="ElementShortName">currentStatus[1:0]</obj_property>
+      <obj_property name="ObjectShortName">currentStatus[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mode_Sim/U0/nextStatus" type="array">
+      <obj_property name="ElementShortName">nextStatus[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nextStatus[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mode_Sim/U0/S0" type="array">
+      <obj_property name="ElementShortName">S0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mode_Sim/U0/S1" type="array">
+      <obj_property name="ElementShortName">S1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mode_Sim/U0/S2" type="array">
+      <obj_property name="ElementShortName">S2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mode_Sim/U0/S3" type="array">
+      <obj_property name="ElementShortName">S3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S3[1:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,840 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar 31 10:01:04 2023
+# Process ID: 12860
+# Current directory: C:/Users/nnyil/Desktop/CLOCK
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11092 C:\Users\nnyil\Desktop\CLOCK\CLOCK.xpr
+# Log file: C:/Users/nnyil/Desktop/CLOCK/vivado.log
+# Journal file: C:/Users/nnyil/Desktop/CLOCK\vivado.jou
+# Running On: JYL-ASUS, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 34084 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nnyil/Desktop/CLOCK/CLOCK.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-151] The current board 'digilentinc.com::nexys4_ddr:1.1' is from a local repo. The vivado install has a corresponding board with version greater than or equal to the local repo board. Please use boards from vivado install to avoid any upgrade/migrate issues
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1779.605 ; gain = 338.176
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'set_time_Sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj set_time_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/set_time_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.set_time_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot set_time_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "set_time_Sim_behav -key {Behavioral:sim_1:Functional:set_time_Sim} -tclbatch {set_time_Sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source set_time_Sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 400 ns : File "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/set_time_Sim.v" Line 134
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'set_time_Sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1822.898 ; gain = 33.902
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'set_time_Sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj set_time_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/set_time_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.set_time_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot set_time_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+$stop called at time : 1 us : File "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/set_time_Sim.v" Line 134
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1831.418 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/set_time_Sim/U0/next_setTime}} {{/set_time_Sim/U0/Upos}} {{/set_time_Sim/U0/Dpos}} {{/set_time_Sim/U0/Rpos}} {{/set_time_Sim/U0/Lpos}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj set_time_Sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+$stop called at time : 1 us : File "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/set_time_Sim.v" Line 134
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/set_time_Sim/U0/bit}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj set_time_Sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+$stop called at time : 1 us : File "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/set_time_Sim.v" Line 134
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/set_time_Sim/U0/Up}} {{/set_time_Sim/U0/Down}} {{/set_time_Sim/U0/Right}} {{/set_time_Sim/U0/Left}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj set_time_Sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+$stop called at time : 1 us : File "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/set_time_Sim.v" Line 134
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj set_time_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/set_time_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.set_time_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot set_time_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1842.379 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj set_time_Sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj set_time_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/set_time_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.set_time_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot set_time_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1843.004 ; gain = 0.320
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj set_time_Sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+run 10 ms
+$stop called at time : 1040 ns : File "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/set_time_Sim.v" Line 138
+run 10 ms
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_param maxThreads 16
+ERROR: [Common 17-153] Param 'maxThreads' does not exist
+set_param general.maxThreads 16
+16
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/_set_time_top_.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 10:26:32 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 10:26:32 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/_set_time_top_.dcp
+launch_runs impl_1 -jobs 8
+[Fri Mar 31 10:28:53 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 10:28:53 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+[Fri Mar 31 10:29:41 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 10:29:41 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/_set_time_top_.dcp
+launch_runs impl_1 -jobs 8
+[Fri Mar 31 10:49:55 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 10:49:55 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 10:53:01 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-07:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1918.805 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747345A
+open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 4009.902 ; gain = 2091.098
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/_set_time_top_.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/_set_time_top_.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+set_property top top [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/_set_time_top_.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 11:06:10 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 11:06:10 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-07:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 4076.977 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747345A
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/Clock.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 11:16:37 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 11:16:38 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Fri Mar 31 11:20:04 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri Mar 31 11:21:03 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: top
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [E:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-11241] undeclared symbol 'second', assumed default net type 'wire' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:74]
+INFO: [Synth 8-11241] undeclared symbol 'Out', assumed default net type 'wire' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:86]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 4849.980 ; gain = 404.023
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:24]
+INFO: [Synth 8-6157] synthesizing module 'frequency_div' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+	Parameter NEED_FREQ bound to: 1000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'frequency_div' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'frequency_div__parameterized0' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+	Parameter NEED_FREQ bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'frequency_div__parameterized0' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'frequency_div__parameterized1' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+	Parameter NEED_FREQ bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'frequency_div__parameterized1' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/frequency_div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'filter' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/filter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'filter' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/filter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mode' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v:24]
+INFO: [Synth 8-226] default block is never used [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'Mode' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Mode.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Output' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v:24]
+INFO: [Synth 8-226] default block is never used [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'Output' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Output.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Seg7_driver' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v:24]
+INFO: [Synth 8-6157] synthesizing module 'ID_to_Seg7' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v:24]
+INFO: [Synth 8-226] default block is never used [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'ID_to_Seg7' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/ID_to_Seg7.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Seg7_driver' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Second_Lights' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/second_lights.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Second_Lights' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/second_lights.v:23]
+INFO: [Synth 8-6157] synthesizing module 'time_counter' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/time_counter.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'time_counter' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/time_counter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'set_time' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'set_time' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v:24]
+INFO: [Synth 8-6157] synthesizing module 'alarm' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'alarm' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v:24]
+INFO: [Synth 8-6157] synthesizing module 'alarm_light' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm_light.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'alarm_light' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm_light.v:24]
+INFO: [Synth 8-6157] synthesizing module 'hour_flicker' [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'hour_flicker' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/hour_flicker.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:24]
+WARNING: [Synth 8-7137] Register DP_reg in module Seg7_driver has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/Seg7_driver.v:40]
+WARNING: [Synth 8-7137] Register next_setTime_reg in module set_time has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v:50]
+WARNING: [Synth 8-7137] Register next_alarmTime_reg in module alarm has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/alarm.v:55]
+WARNING: [Synth 8-3848] Net flicker_light in module/entity top does not have driver. [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:35]
+WARNING: [Synth 8-3848] Net PM_light in module/entity top does not have driver. [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:37]
+WARNING: [Synth 8-3848] Net second in module/entity top does not have driver. [C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/top.v:74]
+WARNING: [Synth 8-7129] Port flicker_light in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PM_light in module top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 4937.703 ; gain = 491.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 4955.547 ; gain = 509.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 4955.547 ; gain = 509.590
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 4955.547 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'status[1]'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:270]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:270]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'status[0]'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:271]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:271]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'status[0]'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:275]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:275]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'status[1]'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:276]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:276]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'light'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:278]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:278]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'light'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:279]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:279]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'button'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:281]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:281]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'light2'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:282]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:282]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'light2'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:283]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:283]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'button'. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:284]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc:284]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/nnyil/Desktop/CLOCK/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5068.637 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 5089.934 ; gain = 643.977
+39 Infos, 18 Warnings, 10 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 5089.934 ; gain = 1012.957
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+set_property IOSTANDARD LVCMOS33 [get_ports [list {second_lights[5]}]]
+place_ports {second_lights[5]} V17
+save_constraints
+close_design
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'set_time_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'set_time_Sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj set_time_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/set_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/set_time_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module set_time_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 16 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 16 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot set_time_Sim_behav xil_defaultlib.set_time_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 16 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.set_time
+Compiling module xil_defaultlib.set_time_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot set_time_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "set_time_Sim_behav -key {Behavioral:sim_1:Functional:set_time_Sim} -tclbatch {set_time_Sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source set_time_Sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'set_time_Sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 5110.992 ; gain = 0.000
+set_property top time_clock_Sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'time_clock_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim/simulate.log"
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'time_clock_Sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'time_clock_Sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj time_clock_Sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/params.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sources_1/new/time_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/sim_1/new/time_clock_Sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_clock_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 16 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot time_clock_Sim_behav xil_defaultlib.time_clock_Sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 16 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot time_clock_Sim_behav xil_defaultlib.time_clock_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 16 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.time_counter
+Compiling module xil_defaultlib.time_clock_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot time_clock_Sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/nnyil/Desktop/CLOCK/CLOCK.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "time_clock_Sim_behav -key {Behavioral:sim_1:Functional:time_clock_Sim} -tclbatch {time_clock_Sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source time_clock_Sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'time_clock_Sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 5110.992 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 11:31:23 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 11:31:23 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-07:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 5110.992 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292747345A
+set_property PROGRAM.FILE {C:\Users\nnyil\Desktop\Clock.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/nnyil/Desktop/Clock.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/nnyil/Desktop/CLOCK/CLOCK.srcs/utils_1/imports/synth_1/_Mode_filter_top.dcp with file C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Mar 31 11:48:10 2023] Launched synth_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/synth_1/runme.log
+[Fri Mar 31 11:48:10 2023] Launched impl_1...
+Run output will be captured here: C:/Users/nnyil/Desktop/CLOCK/CLOCK.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 31 11:51:06 2023...
